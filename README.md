@@ -51,7 +51,7 @@ Soy un desarrollador apasionado por la resolución de problemas mediante algorit
 ---
 
 ### 🤝 Contacto y Redes
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/erick-joseph-torres-suarez)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/erick-joseph-torres-suarez](https://www.linkedin.com/in/erick-torres-suarez-8a108b327/))
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joseph62937@gmail.com)
 
 ---
