@@ -25,18 +25,26 @@ Soy un desarrollador apasionado por la resolución de problemas mediante algorit
 
 ---
 
-### 📊 Mis Estadísticas de GitHub
+### 📊 Actividad y Estadísticas
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Helminth117&layout=compact&theme=tokyonight&hide_border=false" />
+  <img height="180em" src="https://github-readme-stats-git-masterhst-p-anuraghazra.vercel.app/api/top-langs/?username=Helminth117&layout=compact&theme=tokyonight&hide_border=false" />
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=Helminth117&theme=tokyonight" />
 </p>
 
 ---
 
+### 🖥️ My Setup (I use Arch btw)
+* **OS:** Arch Linux (CachyOS optimized)
+* **Kernel:** Linux-cachyos (BORE)
+* **Shell:** Fish / ZSH
+* **Hardware:** HP EliteBook (Performance tuned)
+
+---
+
 ### 🤝 Contacto y Redes
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/TU-USUARIO)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/erick-joseph-torres-suarez)
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tu-joseph62937@gmail.com)
 
 ---
-*"I use Arch BTW (CachyOS optimized)"* 🐧
+*"Optimizing code and kernels."* 🐧
