@@ -6,6 +6,15 @@ Soy un desarrollador apasionado por la resolución de problemas mediante algorit
 
 ---
 
+### 🏆 Mis Logros en GitHub
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=Helminth117&theme=tokyonight&no-frame=true&column=4&margin-w=15" alt="Helminth117" />
+  </a>
+</p>
+
+---
+
 ### 🛠️ Mi Stack Tecnológico
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -25,10 +34,10 @@ Soy un desarrollador apasionado por la resolución de problemas mediante algorit
 
 ---
 
-### 📊 Actividad y Estadísticas
+### 📊 Actividad y Lenguajes
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats-git-masterhst-p-anuraghazra.vercel.app/api/top-langs/?username=Helminth117&layout=compact&theme=tokyonight&hide_border=false" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs?username=Helminth117&layout=compact&theme=tokyonight" />
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=Helminth117&theme=tokyonight" />
 </p>
 
@@ -37,7 +46,7 @@ Soy un desarrollador apasionado por la resolución de problemas mediante algorit
 ### 🖥️ My Setup (I use Arch btw)
 * **OS:** Arch Linux (CachyOS optimized)
 * **Kernel:** Linux-cachyos (BORE)
-* **Shell:** Fish / ZSH
+* **Shell:** Fish 
 * **Hardware:** HP EliteBook (Performance tuned)
 
 ---
