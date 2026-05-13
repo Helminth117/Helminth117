@@ -34,10 +34,9 @@ Soy un desarrollador apasionado por la resolución de problemas mediante algorit
 
 ---
 
-### 📊 Actividad y Lenguajes
+### 📊 Actividad en GitHub
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs?username=Helminth117&layout=compact&theme=tokyonight" />
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=Helminth117&theme=tokyonight" />
 </p>
 
@@ -53,7 +52,7 @@ Soy un desarrollador apasionado por la resolución de problemas mediante algorit
 
 ### 🤝 Contacto y Redes
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/erick-joseph-torres-suarez)
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tu-joseph62937@gmail.com)
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joseph62937@gmail.com)
 
 ---
 *"Optimizing code and kernels."* 🐧
