@@ -33,6 +33,7 @@ Estos repos son privados; si te interesa alguno, escríbeme.
 | Proyecto | Qué es |
 |---|---|
 | [**doc2md**](https://github.com/Helminth117/doc2md_app) | Convierte PDF, DOCX, PPTX y XLSX a Markdown limpio para dárselo a un LLM. Python + Flask. |
+| [**Subneteo paso a paso**](https://github.com/Helminth117/subneteo-paso-a-paso) | Cuaderno interactivo para practicar subneteo IPv4, con modo examen. [Pruébalo en el navegador](https://helminth117.github.io/subneteo-paso-a-paso/). |
 | [**Algoritmos-Busqueda-AI**](https://github.com/Helminth117/Algoritmos-Busqueda-AI) | BFS y DFS aplicados a Torres de Hanoi, Jarras de Agua y 8-Puzzle, con interfaz en Swing. |
 | [**Procesador-Imagenes-Java**](https://github.com/Helminth117/Procesador-Imagenes-Java) | Filtros de imagen e histogramas RGB con interfaz en Swing. |
 | [**Python-Store-Logic**](https://github.com/Helminth117/Python-Store-Logic) | Inventario, ventas y estadísticas de una tienda de un juego de rol. |
