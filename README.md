@@ -69,8 +69,8 @@ Estos repos son privados; si te interesa alguno, escríbeme.
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Helminth117&locale=es&background=0D0D0D&border=2B2B2B&stroke=2B2B2B&ring=F5F5F5&fire=F5F5F5&currStreakNum=F5F5F5&sideNums=F5F5F5&currStreakLabel=F5F5F5&sideLabels=A3A3A3&dates=6E6E6E">
-    <img src="https://streak-stats.demolab.com/?user=Helminth117&locale=es&background=FFFFFF&border=D4D4D4&stroke=D4D4D4&ring=0D0D0D&fire=0D0D0D&currStreakNum=0D0D0D&sideNums=0D0D0D&currStreakLabel=0D0D0D&sideLabels=525252&dates=8A8A8A" alt="Racha de contribuciones" height="170">
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Helminth117&locale=es&disable_animations=true&background=0D0D0D&border=2B2B2B&stroke=2B2B2B&ring=F5F5F5&fire=F5F5F5&currStreakNum=F5F5F5&sideNums=F5F5F5&currStreakLabel=F5F5F5&sideLabels=A3A3A3&dates=6E6E6E">
+    <img src="https://streak-stats.demolab.com/?user=Helminth117&locale=es&disable_animations=true&background=FFFFFF&border=D4D4D4&stroke=D4D4D4&ring=0D0D0D&fire=0D0D0D&currStreakNum=0D0D0D&sideNums=0D0D0D&currStreakLabel=0D0D0D&sideLabels=525252&dates=8A8A8A" alt="Racha de contribuciones" height="170">
   </picture>
 </p>
 
