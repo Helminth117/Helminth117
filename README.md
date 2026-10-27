@@ -16,6 +16,12 @@
 
 ---
 
+### Ahora mismo
+
+- Pasando el panel de **HelminthsOverlay** a Flutter, para controlarlo igual desde Windows que desde Android.
+- Preparando una temporada nueva del servidor de Minecraft, con animaciones propias dentro del juego.
+- Le enseñé al ESP32 de **Encender PC** a encender también el estéreo: habla su protocolo Bluetooth, que saqué de una captura de la app oficial.
+
 ### En lo que trabajo
 
 Estos repos son privados; si te interesa alguno, escríbeme.
@@ -43,6 +49,7 @@ Estos repos son privados; si te interesa alguno, escríbeme.
 
 ### Stack
 
+<sub><b>LENGUAJES</b></sub>
 <p>
   <img src="https://img.shields.io/badge/Java-0D0D0D?style=flat-square&logo=openjdk&logoColor=F5F5F5" alt="Java">
   <img src="https://img.shields.io/badge/Python-0D0D0D?style=flat-square&logo=python&logoColor=F5F5F5" alt="Python">
@@ -52,15 +59,23 @@ Estos repos son privados; si te interesa alguno, escríbeme.
   <img src="https://img.shields.io/badge/Kotlin-0D0D0D?style=flat-square&logo=kotlin&logoColor=F5F5F5" alt="Kotlin">
   <img src="https://img.shields.io/badge/C++-0D0D0D?style=flat-square&logo=cplusplus&logoColor=F5F5F5" alt="C++">
 </p>
+
+<sub><b>FRAMEWORKS Y PLATAFORMAS</b></sub>
 <p>
   <img src="https://img.shields.io/badge/Node.js-0D0D0D?style=flat-square&logo=nodedotjs&logoColor=F5F5F5" alt="Node.js">
   <img src="https://img.shields.io/badge/React-0D0D0D?style=flat-square&logo=react&logoColor=F5F5F5" alt="React">
   <img src="https://img.shields.io/badge/Flutter-0D0D0D?style=flat-square&logo=flutter&logoColor=F5F5F5" alt="Flutter">
   <img src="https://img.shields.io/badge/Svelte-0D0D0D?style=flat-square&logo=svelte&logoColor=F5F5F5" alt="Svelte">
   <img src="https://img.shields.io/badge/Paper%20%C2%B7%20Forge-0D0D0D?style=flat-square&logo=openjdk&logoColor=F5F5F5" alt="Paper · Forge">
+</p>
+
+<sub><b>HARDWARE</b></sub>
+<p>
   <img src="https://img.shields.io/badge/ESP32-0D0D0D?style=flat-square&logo=espressif&logoColor=F5F5F5" alt="ESP32">
   <img src="https://img.shields.io/badge/Arduino-0D0D0D?style=flat-square&logo=arduino&logoColor=F5F5F5" alt="Arduino">
 </p>
+
+<sub><b>SISTEMAS Y HERRAMIENTAS</b></sub>
 <p>
   <img src="https://img.shields.io/badge/Arch%20Linux-0D0D0D?style=flat-square&logo=archlinux&logoColor=F5F5F5" alt="Arch Linux">
   <img src="https://img.shields.io/badge/Windows-0D0D0D?style=flat-square&logo=windows&logoColor=F5F5F5" alt="Windows">
