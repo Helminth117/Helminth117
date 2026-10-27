@@ -26,6 +26,7 @@ Estos repos son privados; si te interesa alguno, escríbeme.
 | **Los Herederos — Dioses** | Mod para una serie de Minecraft: cada jugador hereda los poderes de Atenea, Zeus, Hades o Poseidón, con el balance ajustable en caliente. | Java · Forge 1.20.1 |
 | **Helminths Hardcore** | Seis plugins para un servidor hardcore entre amigos: si alguien muere, el mundo se respalda, se borra y se regenera con semilla nueva. | Java · Paper 26.2 |
 | **ServerHardcore Panel** | Panel web para administrar varios servidores de Minecraft: instancias de Paper, Fabric, Forge y más, Java automático, tienda de Modrinth y backups. | Python |
+| **Encender PC** | Encender y apagar el PC desde cualquier sitio, aunque la casa esté detrás de CGNAT: un ESP32 recibe órdenes firmadas por ntfy y manda el Wake-on-LAN, y de paso enciende el estéreo por Bluetooth. Con app Android para ver el estado del PC. | C++ · ESP32 · Kotlin · Python |
 | **Helminth's Graves** · **Temperature** | Plugins para el servidor Handicraft: tumbas para Java y Bedrock, y un sistema de temperatura corporal. | Java · Paper |
 
 ### Proyectos públicos
