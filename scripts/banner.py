@@ -22,9 +22,10 @@ W, H = 960, 236
 LOGO_X, LOGO_Y = (W - 620) // 2, 0
 FONT = "ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace"
 FS, CW = 22, 13.2                    # tamaño y avance fijo por carácter (textLength)
-PROMPT = "> hago "
-PHRASES = ["overlays para directos", "plugins y mods de Minecraft",
-           "paneles para servidores", "aparatos con un ESP32"]
+PROMPT = "$ "
+# Desde "#" se pinta en el color tenue, como un comentario.
+PHRASES = ["overlay --live tiktok", "./gradlew build   # plugins y mods",
+           "panel start --servers hardcore", "esp32 wake cortana"]
 TYPE, ERASE, HOLD, GAP = 0.075, 0.03, 2.2, 0.45   # segundos
 INTRO = 0.03 * len(pixels) + 0.9                  # cuándo empieza a escribir
 LINE_Y = 196
@@ -61,7 +62,7 @@ def smil(attr, pts, scale, offset):
 
 def build(ink, soft, faint):
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" '
-           f'role="img" aria-label="helminth117 — hago las herramientas que yo mismo uso">',
+           f'role="img" aria-label="helminth117 — overlays para directos, plugins y mods de Minecraft, paneles para servidores y un ESP32 que enciende el PC">',
            "<style>",
            ".px{animation:pop .35s cubic-bezier(.2,1.6,.4,1) backwards;transform-box:fill-box;transform-origin:center}",
            "@keyframes pop{from{opacity:0;transform:scale(0)}}",
@@ -94,8 +95,13 @@ def build(ink, soft, faint):
         cursor_pts += pts
         out.append(f'<clipPath id="c{k}"><rect x="{PX}" y="{LINE_Y - FS}" height="{FS + 8}" width="0">'
                    f'{smil("width", pts, CW, 0)}</rect></clipPath>')
-        out.append(f'<text clip-path="url(#c{k})" x="{PX}" y="{LINE_Y}" fill="{ink}" '
-                   f'textLength="{n * CW:g}" lengthAdjust="spacing">{p}</text>')
+        out.append(f'<g clip-path="url(#c{k})">')
+        code, _, comment = p.partition("#")
+        for off, seg, color in ((0, code, ink), (len(code), "#" + comment if _ else "", soft)):
+            if seg:
+                out.append(f'<text x="{PX + off * CW:g}" y="{LINE_Y}" fill="{color}" textLength="{len(seg) * CW:g}" '
+                           f'lengthAdjust="spacing" xml:space="preserve">{seg}</text>')
+        out.append("</g>")
     out.append(f'<rect class="cur" x="{PX}" y="{LINE_Y - FS + 3}" width="{CW - 2:g}" height="{FS}" fill="{ink}">'
                f'{smil("x", cursor_pts, CW, PX)}</rect>')
     out.append("</g>")

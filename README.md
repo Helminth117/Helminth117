@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner-oscuro.svg">
-    <img src="assets/banner-claro.svg" alt="helminth117 — hago overlays para directos, plugins y mods de Minecraft, paneles para servidores y aparatos con un ESP32" width="100%">
+    <img src="assets/banner-claro.svg" alt="helminth117 — overlays para directos, plugins y mods de Minecraft, paneles para servidores y un ESP32 que enciende el PC" width="100%">
   </picture>
 </p>
 
