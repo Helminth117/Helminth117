@@ -76,6 +76,13 @@ Estos repos son privados; si te interesa alguno, escríbeme.
   </picture>
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Helminth117/Helminth117/output/serpiente-oscuro.svg">
+    <img src="https://raw.githubusercontent.com/Helminth117/Helminth117/output/serpiente-claro.svg" alt="Serpiente comiéndose la gráfica de contribuciones" width="100%">
+  </picture>
+</p>
+
 ### Setup
 
 - **Cortana**, el PC: Ryzen 5 8600G · RTX 3070 · 64 GB DDR5 · Windows 11
