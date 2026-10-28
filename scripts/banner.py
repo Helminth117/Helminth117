@@ -24,8 +24,8 @@ FONT = "ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace"
 FS, CW = 22, 13.2                    # tamaño y avance fijo por carácter (textLength)
 PROMPT = "$ "
 # Desde "#" se pinta en el color tenue, como un comentario.
-PHRASES = ["overlay --live tiktok", "./gradlew build   # plugins y mods",
-           "panel start --servers hardcore", "esp32 wake cortana"]
+PHRASES = ["overlay --live tiktok", "helcam --teleport   # dos dedos",
+           "./gradlew build   # plugins y mods", "esp32 wake cortana"]
 TYPE, ERASE, HOLD, GAP = 0.075, 0.03, 2.2, 0.45   # segundos
 INTRO = 0.03 * len(pixels) + 0.9                  # cuándo empieza a escribir
 LINE_Y = 196
@@ -62,7 +62,7 @@ def smil(attr, pts, scale, offset):
 
 def build(ink, soft, faint):
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" '
-           f'role="img" aria-label="helminth117 — overlays para directos, plugins y mods de Minecraft, paneles para servidores y un ESP32 que enciende el PC">',
+           f'role="img" aria-label="helminth117 — overlays para directos, una webcam que teletransporta, plugins y mods de Minecraft y un ESP32 que enciende el PC">',
            "<style>",
            ".px{animation:pop .35s cubic-bezier(.2,1.6,.4,1) backwards;transform-box:fill-box;transform-origin:center}",
            "@keyframes pop{from{opacity:0;transform:scale(0)}}",

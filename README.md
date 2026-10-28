@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner-oscuro.svg">
-    <img src="assets/banner-claro.svg" alt="helminth117 — overlays para directos, plugins y mods de Minecraft, paneles para servidores y un ESP32 que enciende el PC" width="100%">
+    <img src="assets/banner-claro.svg" alt="helminth117 — overlays para directos, una webcam que teletransporta, plugins y mods de Minecraft y un ESP32 que enciende el PC" width="100%">
   </picture>
 </p>
 
@@ -10,42 +10,49 @@
 </p>
 
 <p align="center">
-  Hago las herramientas que yo mismo uso: un overlay para directos, plugins y mods de Minecraft,<br>
-  paneles para administrar servidores y algún aparato con un ESP32.
+  Hago las herramientas que yo mismo uso: un overlay para directos, apps para Android y Linux,<br>
+  plugins y mods de Minecraft y algún aparato con un ESP32.
 </p>
 
 ---
 
 ### Ahora mismo
 
+- Acabo de publicar **[HelCam](https://github.com/Helminth117/helcam)**: pones dos dedos en la frente y te teletransportas de la videollamada, estilo anime.
 - Pasando el panel de **HelminthsOverlay** a Flutter, para controlarlo igual desde Windows que desde Android.
-- Preparando una temporada nueva del servidor de Minecraft, con animaciones propias dentro del juego.
-- Le enseñé al ESP32 de **Encender PC** a encender también el estéreo: habla su protocolo Bluetooth, que saqué de una captura de la app oficial.
+- Afinando **Helix**, mi reproductor de FLAC para Android, para que suene bit-perfect por un DAC USB.
 
-### En lo que trabajo
-
-Estos repos son privados; si te interesa alguno, escríbeme.
+### Proyectos destacados
 
 | Proyecto | Qué es | Con qué |
 |---|---|---|
-| **HelminthsOverlay** | Overlay interactivo para directos de TikTok: alertas, chat con avatares, economía de puntos con tienda, peticiones de canciones y encuestas. Se controla desde el PC o el móvil. | Node.js · React · Flutter |
-| **Los Herederos — Dioses** | Mod para una serie de Minecraft: cada jugador hereda los poderes de Atenea, Zeus, Hades o Poseidón, con el balance ajustable en caliente. | Java · Forge 1.20.1 |
-| **Helminths Hardcore** | Seis plugins para un servidor hardcore entre amigos: si alguien muere, el mundo se respalda, se borra y se regenera con semilla nueva. | Java · Paper 26.2 |
-| **ServerHardcore Panel** | Panel web para administrar varios servidores de Minecraft: instancias de Paper, Fabric, Forge y más, Java automático, tienda de Modrinth y backups. | Python |
-| **Encender PC** | Encender y apagar el PC desde cualquier sitio, aunque la casa esté detrás de CGNAT: un ESP32 recibe órdenes firmadas por ntfy y manda el Wake-on-LAN, y de paso enciende el estéreo por Bluetooth. Con app Android para ver el estado del PC. | C++ · ESP32 · Kotlin · Python |
-| **Helminth's Graves** · **Temperature** | Plugins para el servidor Handicraft: tumbas para Java y Bedrock, y un sistema de temperatura corporal. | Java · Paper |
+| [**HelCam**](https://github.com/Helminth117/helcam) | Teletransporte estilo anime para la webcam: con un gesto desapareces y vuelves, y sale así en Meet, Zoom o Discord por una cámara virtual. | Python · MediaPipe · OpenCV · Qt |
+| **HelminthsOverlay** 🔒 | Overlay interactivo para directos de TikTok: alertas, chat con avatares, economía de puntos con tienda, peticiones de canciones y encuestas. Se controla desde el PC o el móvil. | Node.js · React · Flutter |
+| **Helix** 🔒 | Reproductor de música local para Android, hecho para FLAC de alta resolución: remuestreo con soxr a la frecuencia real de cada salida, sin cuentas ni servidores. | Kotlin · Compose · C++ |
+| **Encender PC** 🔒 | Enciende y apaga el PC desde cualquier sitio, aunque la casa esté detrás de CGNAT: un ESP32 recibe órdenes firmadas por ntfy y manda el Wake-on-LAN. También enciende el estéreo por Bluetooth. | ESP32 · Kotlin · Python |
+| **Los Herederos — Dioses** 🔒 | Mod para una serie de Minecraft: cada jugador hereda los poderes de Atenea, Zeus, Hades o Poseidón. | Java · Forge 1.20.1 |
+| **Helminths Hardcore** 🔒 | Plugins y panel web para un servidor hardcore entre amigos: si alguien muere, el mundo se respalda, se borra y se regenera. | Java · Paper · Python |
+| [**doc2md**](https://github.com/Helminth117/doc2md_app) | Convierte PDF, DOCX, PPTX y XLSX a Markdown limpio para dárselo a un LLM. | Python · Flask |
+| [**Subneteo paso a paso**](https://github.com/Helminth117/subneteo-paso-a-paso) | Cuaderno interactivo para practicar subneteo IPv4, con modo examen. [Pruébalo en el navegador](https://helminth117.github.io/subneteo-paso-a-paso/). | HTML · JavaScript |
 
-### Proyectos públicos
+<sub>🔒 Repo privado. Si te interesa alguno, escríbeme.</sub>
+
+<details>
+<summary><b>Más proyectos</b></summary>
+
+<br>
 
 | Proyecto | Qué es |
 |---|---|
-| [**doc2md**](https://github.com/Helminth117/doc2md_app) | Convierte PDF, DOCX, PPTX y XLSX a Markdown limpio para dárselo a un LLM. Python + Flask. |
-| [**Subneteo paso a paso**](https://github.com/Helminth117/subneteo-paso-a-paso) | Cuaderno interactivo para practicar subneteo IPv4, con modo examen. [Pruébalo en el navegador](https://helminth117.github.io/subneteo-paso-a-paso/). |
 | [**Algoritmos-Busqueda-AI**](https://github.com/Helminth117/Algoritmos-Busqueda-AI) | BFS y DFS aplicados a Torres de Hanoi, Jarras de Agua y 8-Puzzle, con interfaz en Swing. |
 | [**Procesador-Imagenes-Java**](https://github.com/Helminth117/Procesador-Imagenes-Java) | Filtros de imagen e histogramas RGB con interfaz en Swing. |
-| [**Python-Store-Logic**](https://github.com/Helminth117/Python-Store-Logic) | Inventario, ventas y estadísticas de una tienda de un juego de rol. |
 | [**Hyprland-Minecraft-Tools**](https://github.com/Helminth117/Hyprland-Minecraft-Tools) | Herramienta AFK para Minecraft en Wayland con `hyprctl` e `ydotool`. |
 | [**Sensor-de-agua-arduino**](https://github.com/Helminth117/Sensor-de-agua-arduino) | Nivel de agua con un ESP32 y una gráfica en tiempo real servida desde la propia placa. |
+| [**Python-Store-Logic**](https://github.com/Helminth117/Python-Store-Logic) | Inventario, ventas y estadísticas de una tienda de un juego de rol. |
+| **TikTok LIVE Studio MCP** 🔒 | Servidor MCP para manejar escenas, fuentes y capturas de TikTok LIVE Studio desde Claude Code. |
+| **Helminth's Graves** · **Temperature** 🔒 | Plugins para el servidor Handicraft: tumbas para Java y Bedrock, y temperatura corporal. |
+
+</details>
 
 ### Stack
 
@@ -66,6 +73,9 @@ Estos repos son privados; si te interesa alguno, escríbeme.
   <img src="https://img.shields.io/badge/React-0D0D0D?style=flat-square&logo=react&logoColor=F5F5F5" alt="React">
   <img src="https://img.shields.io/badge/Flutter-0D0D0D?style=flat-square&logo=flutter&logoColor=F5F5F5" alt="Flutter">
   <img src="https://img.shields.io/badge/Svelte-0D0D0D?style=flat-square&logo=svelte&logoColor=F5F5F5" alt="Svelte">
+  <img src="https://img.shields.io/badge/Jetpack%20Compose-0D0D0D?style=flat-square&logo=jetpackcompose&logoColor=F5F5F5" alt="Jetpack Compose">
+  <img src="https://img.shields.io/badge/Qt-0D0D0D?style=flat-square&logo=qt&logoColor=F5F5F5" alt="Qt">
+  <img src="https://img.shields.io/badge/OpenCV-0D0D0D?style=flat-square&logo=opencv&logoColor=F5F5F5" alt="OpenCV">
   <img src="https://img.shields.io/badge/Paper%20%C2%B7%20Forge-0D0D0D?style=flat-square&logo=openjdk&logoColor=F5F5F5" alt="Paper · Forge">
 </p>
 
