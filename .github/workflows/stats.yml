@@ -1,0 +1,41 @@
+# Genera la tarjeta de estadísticas con scripts/stats.py y la publica en la rama "stats"
+# (el README la enlaza desde ahí). Con el secreto STATS_TOKEN cuenta también los repos privados.
+name: Estadísticas
+
+on:
+  schedule:
+    - cron: "30 7 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/stats.py
+      - scripts/pixel.py
+      - .github/workflows/stats.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stats
+  cancel-in-progress: true
+
+jobs:
+  generar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - run: python3 scripts/stats.py "$PWD" dist
+        env:
+          GH_TOKEN: ${{ secrets.STATS_TOKEN || github.token }}
+          GH_USER: ${{ github.repository_owner }}
+
+      - uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: stats
+          build_dir: dist
+          jekyll: false
+          commit_message: Estadísticas actualizadas
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

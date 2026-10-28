@@ -14,7 +14,12 @@
   plugins y mods de Minecraft y algún aparato con un ESP32.
 </p>
 
----
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/separador-oscuro.svg">
+    <img src="assets/separador-claro.svg" alt="" width="100%">
+  </picture>
+</p>
 
 ### Ahora mismo
 
@@ -22,20 +27,60 @@
 - Pasando el panel de **HelminthsOverlay** a Flutter, para controlarlo igual desde Windows que desde Android.
 - Afinando **Helix**, mi reproductor de FLAC para Android, para que suene bit-perfect por un DAC USB.
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/separador-oscuro.svg">
+    <img src="assets/separador-claro.svg" alt="" width="100%">
+  </picture>
+</p>
+
 ### Proyectos destacados
 
-| Proyecto | Qué es | Con qué |
-|---|---|---|
-| [**HelCam**](https://github.com/Helminth117/helcam) | Teletransporte estilo anime para la webcam: con un gesto desapareces y vuelves, y sale así en Meet, Zoom o Discord por una cámara virtual. | Python · MediaPipe · OpenCV · Qt |
-| **HelminthsOverlay** 🔒 | Overlay interactivo para directos de TikTok: alertas, chat con avatares, economía de puntos con tienda, peticiones de canciones y encuestas. Se controla desde el PC o el móvil. | Node.js · React · Flutter |
-| **Helix** 🔒 | Reproductor de música local para Android, hecho para FLAC de alta resolución: remuestreo con soxr a la frecuencia real de cada salida, sin cuentas ni servidores. | Kotlin · Compose · C++ |
-| **Encender PC** 🔒 | Enciende y apaga el PC desde cualquier sitio, aunque la casa esté detrás de CGNAT: un ESP32 recibe órdenes firmadas por ntfy y manda el Wake-on-LAN. También enciende el estéreo por Bluetooth. | ESP32 · Kotlin · Python |
-| **Los Herederos — Dioses** 🔒 | Mod para una serie de Minecraft: cada jugador hereda los poderes de Atenea, Zeus, Hades o Poseidón. | Java · Forge 1.20.1 |
-| **Helminths Hardcore** 🔒 | Plugins y panel web para un servidor hardcore entre amigos: si alguien muere, el mundo se respalda, se borra y se regenera. | Java · Paper · Python |
-| [**doc2md**](https://github.com/Helminth117/doc2md_app) | Convierte PDF, DOCX, PPTX y XLSX a Markdown limpio para dárselo a un LLM. | Python · Flask |
-| [**Subneteo paso a paso**](https://github.com/Helminth117/subneteo-paso-a-paso) | Cuaderno interactivo para practicar subneteo IPv4, con modo examen. [Pruébalo en el navegador](https://helminth117.github.io/subneteo-paso-a-paso/). | HTML · JavaScript |
+<p align="center">
+  <a href="https://github.com/Helminth117/helcam"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/proyectos/helcam-oscuro.svg">
+    <img src="assets/proyectos/helcam-claro.svg" alt="HelCam: teletransporte estilo anime para la webcam. Python, MediaPipe, OpenCV y Qt." width="49%">
+  </picture></a>
+  <a href="#contacto"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/proyectos/overlay-oscuro.svg">
+    <img src="assets/proyectos/overlay-claro.svg" alt="HelminthsOverlay (privado): overlay interactivo para directos de TikTok. Node.js, React y Flutter." width="49%">
+  </picture></a>
+</p>
 
-<sub>🔒 Repo privado. Si te interesa alguno, escríbeme.</sub>
+<p align="center">
+  <a href="#contacto"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/proyectos/helix-oscuro.svg">
+    <img src="assets/proyectos/helix-claro.svg" alt="Helix (privado): reproductor de FLAC para Android. Kotlin, Compose y C++." width="49%">
+  </picture></a>
+  <a href="#contacto"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/proyectos/encender-pc-oscuro.svg">
+    <img src="assets/proyectos/encender-pc-claro.svg" alt="Encender PC (privado): enciende el PC desde cualquier sitio con un ESP32. ESP32, Kotlin y Python." width="49%">
+  </picture></a>
+</p>
+
+<p align="center">
+  <a href="#contacto"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/proyectos/herederos-oscuro.svg">
+    <img src="assets/proyectos/herederos-claro.svg" alt="Los Herederos (privado): mod de Minecraft con poderes de dioses griegos. Java y Forge 1.20.1." width="49%">
+  </picture></a>
+  <a href="#contacto"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/proyectos/hardcore-oscuro.svg">
+    <img src="assets/proyectos/hardcore-claro.svg" alt="Helminths Hardcore (privado): plugins y panel para un servidor hardcore. Java, Paper y Python." width="49%">
+  </picture></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Helminth117/doc2md_app"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/proyectos/doc2md-oscuro.svg">
+    <img src="assets/proyectos/doc2md-claro.svg" alt="doc2md: documentos a Markdown limpio para LLMs. Python y Flask." width="49%">
+  </picture></a>
+  <a href="https://github.com/Helminth117/subneteo-paso-a-paso"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/proyectos/subneteo-oscuro.svg">
+    <img src="assets/proyectos/subneteo-claro.svg" alt="Subneteo paso a paso: practica subneteo IPv4. HTML y JavaScript." width="49%">
+  </picture></a>
+</p>
+
+<p align="center"><sub>Los privados no tienen el código abierto; si te interesa alguno, <a href="#contacto">escríbeme</a>.</sub></p>
 
 <details>
 <summary><b>Más proyectos</b></summary>
@@ -53,6 +98,13 @@
 | **Helminth's Graves** · **Temperature** 🔒 | Plugins para el servidor Handicraft: tumbas para Java y Bedrock, y temperatura corporal. |
 
 </details>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/separador-oscuro.svg">
+    <img src="assets/separador-claro.svg" alt="" width="100%">
+  </picture>
+</p>
 
 ### Stack
 
@@ -92,12 +144,19 @@
   <img src="https://img.shields.io/badge/Git-0D0D0D?style=flat-square&logo=git&logoColor=F5F5F5" alt="Git">
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/separador-oscuro.svg">
+    <img src="assets/separador-claro.svg" alt="" width="100%">
+  </picture>
+</p>
+
 ### Actividad
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Helminth117&locale=es&disable_animations=true&background=0D0D0D&border=2B2B2B&stroke=2B2B2B&ring=F5F5F5&fire=F5F5F5&currStreakNum=F5F5F5&sideNums=F5F5F5&currStreakLabel=F5F5F5&sideLabels=A3A3A3&dates=6E6E6E">
-    <img src="https://streak-stats.demolab.com/?user=Helminth117&locale=es&disable_animations=true&background=FFFFFF&border=D4D4D4&stroke=D4D4D4&ring=0D0D0D&fire=0D0D0D&currStreakNum=0D0D0D&sideNums=0D0D0D&currStreakLabel=0D0D0D&sideLabels=525252&dates=8A8A8A" alt="Racha de contribuciones" height="170">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Helminth117/Helminth117/stats/stats-oscuro.svg">
+    <img src="https://raw.githubusercontent.com/Helminth117/Helminth117/stats/stats-claro.svg" alt="Estadísticas del año: commits, racha, lenguajes más usados y último commit" width="100%">
   </picture>
 </p>
 
@@ -120,7 +179,12 @@
   <a href="mailto:joseph62937@gmail.com"><img src="https://img.shields.io/badge/Gmail-0D0D0D?style=flat-square&logo=gmail&logoColor=F5F5F5" alt="Gmail"></a>
 </p>
 
----
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/monstruo-oscuro.svg">
+    <img src="assets/monstruo-claro.svg" alt="Un cazador persigue a un pequeño dragón por el pie de página" width="100%">
+  </picture>
+</p>
 
 <p align="center">
   <sub>Si no estoy programando, probablemente estoy de cacería en Monster Hunter.</sub>
