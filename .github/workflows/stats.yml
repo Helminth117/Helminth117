@@ -24,14 +24,16 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+        with:
+          persist-credentials: false
 
       - run: python3 scripts/stats.py "$PWD" dist
         env:
           GH_TOKEN: ${{ secrets.STATS_TOKEN || github.token }}
           GH_USER: ${{ github.repository_owner }}
 
-      - uses: crazy-max/ghaction-github-pages@v5
+      - uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5.0.0
         with:
           target_branch: stats
           build_dir: dist
