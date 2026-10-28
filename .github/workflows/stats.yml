@@ -1,5 +1,5 @@
 # Genera la tarjeta de estadísticas con scripts/stats.py y la publica en la rama "stats"
-# (el README la enlaza desde ahí). Con el secreto STATS_TOKEN cuenta también los repos privados.
+# (el README la enlaza desde ahí). Con el secreto STATS cuenta también los repos privados.
 name: Estadísticas
 
 on:
@@ -30,7 +30,7 @@ jobs:
 
       - run: python3 scripts/stats.py "$PWD" dist
         env:
-          GH_TOKEN: ${{ secrets.STATS_TOKEN || github.token }}
+          GH_TOKEN: ${{ secrets.STATS || github.token }}
           GH_USER: ${{ github.repository_owner }}
 
       - uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5.0.0
